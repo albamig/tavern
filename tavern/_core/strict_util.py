@@ -4,7 +4,7 @@ import re
 
 import attr
 
-from tavern.util import exceptions
+from tavern._core import exceptions
 
 
 class _StrictSetting(enum.Enum):

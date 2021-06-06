@@ -2,7 +2,7 @@ import copy
 
 import attr
 
-from tavern.util.strict_util import _StrictSetting
+from tavern._core.strict_util import _StrictSetting
 
 
 @attr.s(frozen=True)
